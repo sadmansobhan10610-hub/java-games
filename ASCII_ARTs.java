@@ -1,0 +1,254 @@
+import java.util.Scanner;
+public class ASCII_ARTs{
+public static void main(String[] args){
+Scanner sc= new Scanner(System.in);
+System.out.print("Enter Your Name: ");
+String name = sc.nextLine();
+for(int i=0; i<name.length(); i++){
+char letter = name.charAt(i); 
+if(letter== 'a' || letter =='A'){
+    System.out.println("      *");
+    System.out.println("     * *");
+    System.out.println("    *   *");
+    System.out.println("   *******");
+    System.out.println("  *       *");
+    System.out.println(" *         *");
+    System.out.println("");
+}
+if(letter =='b' ||  letter == 'B'){
+
+    System.out.println("*****   ");
+    System.out.println("*    *    ");
+    System.out.println("*   *  ");
+    System.out.println("*****   ");
+    System.out.println("*    *   ");
+    System.out.println("*    *   ");
+    System.out.println("*****        ");
+}
+if(letter =='c' || letter== 'C'){
+    System.out.println(" *****         ");
+    System.out.println("*     *    ");
+    System.out.println("*         ");
+    System.out.println("*        ");
+    System.out.println("*     *    ");
+    System.out.println("******         ");
+    
+}
+if(letter =='d' || letter =='D'){
+  System.out.println("******         ");
+  System.out.println("*     *     ");
+  System.out.println("*      *    ");
+  System.out.println("*      *     ");
+  System.out.println("*      *     ");
+  System.out.println("*     *     ");
+  System.out.println("******        ");
+
+}
+if(letter =='e'||letter=='E'){
+System.out.println("*******        ");
+System.out.println("*         ");
+System.out.println("*         ");
+System.out.println("*****         ");
+System.out.println("*         ");
+System.out.println("*         ");
+System.out.println("********         ");
+
+
+}
+if(letter =='f'||letter=='F'){
+System.out.println("*******        ");
+System.out.println("*         ");
+System.out.println("*         ");
+System.out.println("*****         ");
+System.out.println("*         ");
+System.out.println("*         ");
+System.out.println("*         "); 
+
+}
+if(letter =='g'||letter=='G'){
+System.out.println("*****        ");
+System.out.println("*    *      ");
+System.out.println("*    *    ");
+System.out.println("*        ");
+System.out.println("*  *****    ");
+System.out.println("*     *    ");
+System.out.println("******        ");
+
+}
+if(letter =='h'||letter=='H'){
+    System.out.println("*        *         ");
+    System.out.println("*        *         ");
+    System.out.println("*        *         ");
+    System.out.println("**********         ");
+    System.out.println("*        *        ");
+    System.out.println("*        *          ");
+    System.out.println("*        *         ");
+}
+if(letter =='i'||letter=='I'){
+    System.out.println("   *****      ");
+    System.out.println("     *      ");
+    System.out.println("     *          ");
+    System.out.println("     *         ");
+    System.out.println("     *     ");
+    System.out.println("     *     ");
+    System.out.println("   *****     ");
+}
+if(letter =='j'||letter=='J'){
+    System.out.println("  *****      ");
+    System.out.println("      *   ");
+    System.out.println("      *   ");
+    System.out.println("      *   ");
+    System.out.println(" *    *   ");
+    System.out.println(" *    *   ");
+    System.out.println("  ****     ");
+}
+if(letter=='k'||letter=='K'){
+    System.out.println("*      *         ");
+    System.out.println("*     *         ");
+    System.out.println("*    *         ");
+    System.out.println("*****        ");
+    System.out.println("*    *         ");
+    System.out.println("*     *    ");
+    System.out.println("*      *  ");
+}
+if(letter=='l'||letter=='L'){
+    System.out.println("*         ");
+    System.out.println("*        ");
+    System.out.println("*         ");
+    System.out.println("*         ");
+    System.out.println("*         ");
+    System.out.println("*         ");
+    System.out.println("*********         ");
+}
+if(letter =='m'|| letter=='M'){
+    System.out.println("*         *        ");
+    System.out.println("* *     * *          ");
+    System.out.println("*   *  *  *    ");
+    System.out.println("*    *    *        ");
+    System.out.println("*         *        ");
+    System.out.println("*         *         ");
+    System.out.println("*         *         ");
+}
+if(letter =='n'||letter=='N'){
+    System.out.println("*      *    ");
+    System.out.println("* *    *      ");
+    System.out.println("*  *   *       ");
+    System.out.println("*   *  *       ");
+    System.out.println("*    * *         ");
+    System.out.println("*     **     ");
+    System.out.println("*      *     ");
+}
+if(letter=='o'||letter=='O'){
+    System.out.println("    ****         ");
+    System.out.println("   *    *        ");
+    System.out.println("  *      *        ");
+    System.out.println(" *        *");
+    System.out.println("  *      *");
+    System.out.println("   *    * ");
+    System.out.println("    ****   ");
+}
+if(letter=='p'||letter=='P'){
+    System.out.println("******         ");
+    System.out.println("*     *         ");
+    System.out.println("*     *         ");
+    System.out.println("******         ");
+    System.out.println("*         ");
+    System.out.println("*         ");
+    System.out.println("*         ");
+}
+if(letter=='q'||letter=='Q'){
+     System.out.println("    ****         ");
+    System.out.println("   *    *        ");
+    System.out.println("  *      *        ");
+    System.out.println(" *        *");
+    System.out.println("  *      **");
+    System.out.println("   *    *  *");
+    System.out.println("    ****    *");
+}
+if(letter=='r'||letter=='R'){
+    System.out.println("******         ");
+    System.out.println("*     *         ");
+    System.out.println("*     *         ");
+    System.out.println("******         ");
+    System.out.println("*  *         ");
+    System.out.println("*   *       ");
+    System.out.println("*    *       ");
+}
+if(letter=='s'||letter=='S'){
+    System.out.println("    *****           ");
+    System.out.println("   *     *    ");
+    System.out.println("     *        ");
+    System.out.println("       *       ");
+    System.out.println("        *    ");
+    System.out.println("   *     *    ");
+    System.out.println("    *****         ");
+}
+if(letter=='t'||letter=='T'){
+    System.out.println(" ***********           ");
+    System.out.println("      *             ");
+    System.out.println("      *      ");
+    System.out.println("      *      ");
+    System.out.println("      *      ");
+    System.out.println("      *      ");
+    System.out.println("      *      ");
+}
+if(letter=='u'||letter=='U'){
+    System.out.println(" *        *           ");
+    System.out.println(" *        *  ");
+    System.out.println(" *        *  ");
+    System.out.println(" *        *  ");
+    System.out.println(" *        *  ");
+    System.out.println("  *      *   ");
+    System.out.println("   ******       ");
+}
+if(letter=='v'||letter=='V'){
+    System.out.println(" *             *           ");
+    System.out.println("  *           *          ");
+    System.out.println("   *         *      ");
+    System.out.println("    *       *      ");
+    System.out.println("     *     *  ");
+    System.out.println("      *   *   ");
+    System.out.println("        *    ");
+}
+if(letter=='w'||letter=='W'){
+    System.out.println("*               *          ");
+    System.out.println(" *             *           ");
+    System.out.println("  *     *     *          ");
+    System.out.println("   *  *   *  *      ");
+    System.out.println("    *       *      ");
+    
+    
+
+}
+if(letter=='x'||letter=='X'){
+    System.out.println(" *     *        ");
+    System.out.println("  *   *        ");
+    System.out.println("   * *       ");
+    System.out.println("    *        ");
+    System.out.println("  *  *     ");
+    System.out.println(" *    *      ");
+    System.out.println("*      *    ");
+}
+if(letter=='y'||letter=='Y'){
+    System.out.println(" *       *   ");
+    System.out.println("  *     *    ");
+    System.out.println("   *   *     ");
+    System.out.println("     *      ");
+    System.out.println("     *      ");
+    System.out.println("     *      ");
+    System.out.println("     *      ");
+}
+if(letter=='z'||letter=='Z'){
+    System.out.println("*********           ");
+    System.out.println("       *    ");
+    System.out.println("      *     ");
+    System.out.println("     *    ");
+    System.out.println("    *     ");
+    System.out.println("  *     ");
+    System.out.println("*********     ");
+}
+}
+
+}
+
+}
